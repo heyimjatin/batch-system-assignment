@@ -1,3 +1,7 @@
+/**
+ * Imports the `Image` component from the `next/image` module.
+ * This component is used to render optimized images in a Next.js application.
+ */
 import Image from "next/image";
 import MailIcon from "../icons/MailIcon";
 import PhoneIcon from "../icons/PhoneIcon";
@@ -52,7 +56,7 @@ export default function Footer() {
         <div className="text-sm">
           <h4 className="font-semibold text-3xl mb-3">Newsletter</h4>
           <p className="mb-4">Stay up to Date</p>
-          <div className="bg-white p-3 rounded">
+          <div className="flex items-center bg-white p-3 rounded ">
             <input
               type="text"
               placeholder="Your email"
